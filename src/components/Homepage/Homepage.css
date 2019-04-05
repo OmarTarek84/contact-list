@@ -1,0 +1,51 @@
+.Homepage span {
+    color: yellow;
+}
+
+.Homepage .backImage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+}
+
+.Homepage .backImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.Homepage h1,
+.Homepage p {
+    position: relative;
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.Homepage h1 {
+    font-size: 40px;
+}
+
+.Homepage p {
+    font-size: 28px;
+}
+
+.Homepage .Link-div {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.Homepage .Link-div a {
+    background-color: #af3434;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}

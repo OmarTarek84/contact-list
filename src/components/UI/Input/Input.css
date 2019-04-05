@@ -1,0 +1,29 @@
+.Input-Group {
+    margin-top: 25px;
+}
+
+.Input-Group label {
+    color: #af3434;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Input-field {
+    display: block;
+    padding: 7px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.Input-field.invalid {
+    border: 2px solid red;
+}
+
+.Validation-Error {
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}

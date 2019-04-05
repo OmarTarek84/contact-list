@@ -1,0 +1,15 @@
+.NavLink-li {
+    margin: 15px;
+}
+
+.NavLink-li a {
+    color: white;
+    text-decoration: none;
+}
+
+.NavLink-li a:hover,
+.NavLink-li a:active,
+.NavLink-li a.active {
+    color: yellow;
+    font-weight: bold;
+}
